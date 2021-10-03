@@ -2,3 +2,43 @@
     margin: 0;
     padding: 0;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.header .nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px 10px;
+    text-transform: uppercase;
+}
+
+.header .nav ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+  
+.header .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    padding: 20px 10px;
+}
+
+.header .logo a:hover {
+    background-color: #fff;
+    color:black
+}
