@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+.footer{
+    margin: 3%;
+}
+
+.footer .footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer__wrapper ul{
+    display: flex;
+}
+
+.footer .footer__wrapper ul li{
+    padding-left: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
