@@ -28,7 +28,8 @@
     list-style: none;
 }
 
-.header .nav ul li:hover {
+.header .nav ul li:hover,
+.header .logo a:hover {
     text-shadow: 0 0 3px;
 }
 
